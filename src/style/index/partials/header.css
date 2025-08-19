@@ -1,0 +1,46 @@
+@import url(./../../global/reset.css);
+
+
+header {
+    width: 80%;
+    margin: auto;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+}
+
+.navbar {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.navbar-list {
+    display: block;
+    list-style: none;
+}
+
+.navbar-list li {
+    display: inline;
+    border: none;
+}
+
+.botao-navbar {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.botao-navbar:hover {
+    background-color: rgb(195, 252, 37);
+    border-radius: 8px;
+    color: #000;
+}
