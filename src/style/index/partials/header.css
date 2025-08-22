@@ -1,6 +1,5 @@
 @import url(./../../global/reset.css);
 
-
 header {
     width: 80%;
     margin: auto;
@@ -19,6 +18,9 @@ header {
 .navbar-title {
     font-size: 32px;
     text-transform: uppercase;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .navbar-list {
@@ -37,6 +39,18 @@ header {
     padding: 16px;
     text-transform: capitalize;
     font-weight: 600;
+}
+
+.botao-selecionado {
+    background-color: rgb(195, 252, 37);
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    pointer-events: none;
+
 }
 
 .botao-navbar:hover {

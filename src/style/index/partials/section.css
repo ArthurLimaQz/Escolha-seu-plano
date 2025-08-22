@@ -2,7 +2,7 @@
 
 
 .titulo-plano {
-    height: 250px;
+    margin: 100px auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -15,9 +15,8 @@
 .box-card {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 424px;
-    width: 100%;
+    min-height: 300px;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -25,33 +24,29 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 90%;
-    width: 248px;
     list-style: none;
     border-radius: 8px;
     background-color: #555555;
+    box-shadow: 0 4px 12px -6px black;
 }
 
 .list-card div {
-    width: 100%;
-    height: 42px;
     padding-left: 16px;
     margin-top: 16px;
     color: #fff;
 }
 
 .titulo-h2-plano {
-    height: 100%;
     width: 90%;
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 600;
     text-align: left;
     border-bottom: 3px solid rgb(195, 252, 37);
+    letter-spacing: 2px;
 }
 
 .valor-card-1 {
-    width: 80%;
     text-align: start;
     margin-top: 16px;
     font-size: 26px;
@@ -73,6 +68,10 @@
     padding-top: 5px;
 }
 
+.list-opcao li p {
+    padding-right: 16px;
+}
+
 .list-opcao li::marker {
     color: rgb(195, 252, 37);
 }
@@ -86,23 +85,27 @@
 }
 
 .button-card {
-    margin-bottom: 32px;
+    width: 80%;
+    margin: auto;
     background-color: #555555;
     border: none;
+    margin-bottom: 16px;
 }
 
-.button-card a {
-    padding: 16px 48px 16px 48px;
+.button-card p {
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     border-radius: 8px;
     color: black;
     background-color: rgb(195, 252, 37);
     text-decoration: none;
-    margin-bottom: 16px;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
+    cursor: pointer;
 }
-.button-card a:hover{
+
+.button-card p:hover {
     background-color: #000;
     color: #fff;
 }
