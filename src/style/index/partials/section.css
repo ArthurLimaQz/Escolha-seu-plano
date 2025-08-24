@@ -17,6 +17,9 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .list-card {
@@ -28,6 +31,7 @@
     border-radius: 8px;
     background-color: #555555;
     box-shadow: 0 4px 12px -6px black;
+    flex-grow: 1;
 }
 
 .list-card div {
